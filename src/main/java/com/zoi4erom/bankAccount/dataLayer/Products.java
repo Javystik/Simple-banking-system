@@ -1,0 +1,83 @@
+package com.zoi4erom.bankAccount.dataLayer;
+
+public enum Products {
+	APPLE("Apple"),
+	BANANA("Banana"),
+	ORANGE("Orange"),
+	STRAWBERRY("Strawberry"),
+	TOMATO("Tomato"),
+	CARROT("Carrot"),
+	CUCUMBER("Cucumber"),
+	LETTUCE("Lettuce"),
+	BROCCOLI("Broccoli"),
+	ONION("Onion"),
+	GARLIC("Garlic"),
+	PEPPER("Pepper"),
+	SPINACH("Spinach"),
+	GRAPES("Grapes"),
+	WATERMELON("Watermelon"),
+	PINEAPPLE("Pineapple"),
+	MANGO("Mango"),
+	PEACH("Peach"),
+	PEAR("Pear"),
+	PLUM("Plum"),
+	CHERRY("Cherry"),
+	BLUEBERRY("Blueberry"),
+	RASPBERRY("Raspberry"),
+	BLACKBERRY("Blackberry"),
+	AVOCADO("Avocado"),
+	LEMON("Lemon"),
+	LIME("Lime"),
+	GRAPEFRUIT("Grapefruit"),
+	MELON("Melon"),
+	PEANUT("Peanut"),
+	ALMOND("Almond"),
+	WALNUT("Walnut"),
+	PISTACHIO("Pistachio"),
+	EGGPLANT("Eggplant"),
+	ZUCCHINI("Zucchini"),
+	RADISH("Radish"),
+	CELERY("Celery"),
+	PUMPKIN("Pumpkin"),
+	SQUASH("Squash"),
+	CABBAGE("Cabbage"),
+	COCONUT("Coconut"),
+	POMEGRANATE("Pomegranate"),
+	APRICOT("Apricot"),
+	FIG("Fig"),
+	DATE("Date"),
+	MILK("Milk"),
+	CHEESE("Cheese"),
+	YOGURT("Yogurt"),
+	BUTTER("Butter"),
+	BREAD("Bread"),
+	BAGUETTE("Baguette"),
+	CROISSANT("Croissant"),
+	ROLL("Roll"),
+	BAGEL("Bagel"),
+	PITA("Pita"),
+	DONUT("Donut"),
+	MUFFIN("Muffin"),
+	CAKE("Cake"),
+	COOKIE("Cookie"),
+	PASTA("Pasta"),
+	RICE("Rice"),
+	BEANS("Beans"),
+	LENTIL("Lentil"),
+	QUINOA("Quinoa"),
+	OATMEAL("Oatmeal"),
+	CEREAL("Cereal"),
+	FLOUR("Flour"),
+	SUGAR("Sugar"),
+	SALT("Salt");
+
+	String name;
+
+	Products(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+}
